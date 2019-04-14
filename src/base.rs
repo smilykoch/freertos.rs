@@ -52,6 +52,7 @@ pub struct FreeRtosTaskStatusFfi {
     pub current_priority: FreeRtosUBaseType,
     pub base_priority: FreeRtosUBaseType,
     pub run_time_counter: FreeRtosUnsignedLong,
+    pub stack_base: FreeRtosStackType,
     pub stack_high_water_mark: FreeRtosUnsignedShort
 }
 
